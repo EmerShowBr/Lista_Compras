@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Compras da semana</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="/style/index.css">
+</head>
+
+
+<body>
+  <div id="logo-wrappper">
+    <img class="logo" src="img/logo.jpg" alt="logo">
+  </div>
+
+
+  <div id="container">
+    <a href="#">Voltar</a>
+    <h1>Compras da semana</h1>
+
+
+    <form class="form-row">
+      <div class="input-wrapper">
+        <label for="add">
+        </label>
+        <input type="text" id="add" placeholder="Adicione um novo item">
+      </div>
+      <button class="btn">Adicionar item</button>
+    </form>
+
+
+    <div id="listaItens">
+      <ul>
+        <li class="suggestion">
+          <label class="item">
+            <input type="checkbox">
+            <span>Pão de Forma</span>
+            <img src="icons/lixo.svg" alt="ìcone de excluir">
+          </label>
+        </li>
+
+        <li class="suggestion">
+          <label class="item">
+            <input type="checkbox">
+            <span>Café preto</span>
+            <img src="icons/lixo.svg" alt="ìcone de excluir">
+          </label>
+        </li>
+
+        <li class="suggestion">
+          <label class="item">
+            <input type="checkbox">
+            <span>Suco de laranja</span>
+            <img src="icons/lixo.svg" alt="ìcone de excluir">
+          </label>
+        </li>
+
+        <li class="suggestion">
+          <label class="item">
+            <input type="checkbox">
+            <span>Bolacha</span>
+            <img src="icons/lixo.svg" alt="ìcone de excluir">
+          </label>
+        </li>
+      </ul>
+      <div class="error ">
+        <img src="/icons/error.svg" alt="error">
+        <span class="message">O item foi removido da lista</span>
+        <img class="close" src="icons/close.svg" alt="fechar">
+      </div>
+    </div>
+
+
+  </div>
+
+  <script src="js/script.js"></script>
+
+</body>
+
+</html>
