@@ -20,5 +20,5 @@ Este projeto foi criado como parte do meu aprendizado em Desenvolvimento Web Ful
 
 Uma imagem da aplicação está disponível neste repositório para visualização do layout e funcionamento.
 
-![Thumbnail do projeto](img/thumbnail.png)
+![Thumbnail do projeto](img/Thumbnail.png)
 
