@@ -107,7 +107,6 @@
   flex-shrink: 0;
 }
 
-
 #listaItens input[type="checkbox"]:hover {
   width: 16px;
   height: 16px;
@@ -124,11 +123,11 @@
   width: 100%;
   height: 100%;
 
-
-  background: url(/icons/checado.svg);
+  background: url(../icons/checado.svg);
   background-repeat: no-repeat;
   background-size: contain;
 }
+
 
 .item {
   display: flex;
